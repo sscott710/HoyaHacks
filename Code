@@ -187,130 +187,139 @@ while( choice3 == True):
         choice3 = False
 print()
 
-#Dinner
-choice4 = True
-while(choice4 == True):
-    print("So after subsequently forgetting to study, and hence procrastinating,")
-    print("you decide it’s time to use your second swipe of the day")
-    print("and get some dinner. You get...")
+//Dinner
+var choice4 = True;
+while(choice4 == True){
+    print("So after subsequently forgetting to study, and hence procrastinating,");
+    print("you decide it’s time to use your second swipe of the day");
+    print("and get some dinner. You get...");
     print("a. A nice hearty steak");
     print("b. A good good salad");
-    print("c. A healthy, balanced meal comprised of proteins, carbs,")
+    print("c. A healthy, balanced meal comprised of proteins, carbs,");
     print("veggies, and all that jazz.");
-    response9 = input("What is your choice?");
-    if (response9 == "a." or response9 == "a"):
-        print("I don’t blame you. A good steak is hard to turn down!")
-        print("Nevertheless, perhaps consider cutting down your steak intake.")
-        print("According to PETA, animal agriculture emits more greenhouse gases")
-        print("than all the world’s transportation systems combined, not to mention")
-        print("it uses an incredibly large amount of resources, as over half of the")
-        print("U.S.’s water is used for raising animals. So, if you drove a car")
-        print("this morning, at least you’re not emitting as many greenhouse gases")
-        print("as a couple of cows! Just remember though, certain meats have a")
-        print("bigger impact on the earth than others, so you don’t need to go")
+    var response9 = input("What is your choice?");
+    if (response9 == "a." or response9 == "a"){
+        print("I don’t blame you. A good steak is hard to turn down!");
+        print("Nevertheless, perhaps consider cutting down your steak intake.");
+        print("According to PETA, animal agriculture emits more greenhouse gases");
+        print("than all the world’s transportation systems combined, not to mention");
+        print("it uses an incredibly large amount of resources, as over half of the");
+        print("U.S.’s water is used for raising animals. So, if you drove a car");
+        print("this morning, at least you’re not emitting as many greenhouse gases");
+        print("as a couple of cows! Just remember though, certain meats have a");
+        print("bigger impact on the earth than others, so you don’t need to go");
         print("completely vegan or vegetarian in order to make a difference!");
-    elif (response9 == "b." or response9 == "b"):
-        print("I get it, salads are great, or maybe you’re getting one because")
-        print("you feel bad about not working out yesterday. ")
-        print("Nevertheless, there is actually a surprising amount of greenhouse")
-        print("gases emitted in the production of certain vegetables.")
-        print("Surprising? Sounds bad, but don’t completely forego eating veggies")
+    }else if (response9 == "b." or response9 == "b"){
+        print("I get it, salads are great, or maybe you’re getting one because");
+        print("you feel bad about not working out yesterday. ");
+        print("Nevertheless, there is actually a surprising amount of greenhouse");
+        print("gases emitted in the production of certain vegetables.");
+        print("Surprising? Sounds bad, but don’t completely forego eating veggies");
         print("(I’m looking at you picky eaters). Consider a more balanced approach!");
-    elif (response9 == "c." or response9 == "c"):
-        print("That’s a great choice! Most things you eat will have an affect on the")
-        print("environment, as their production and harvesting will emit many")
-        print(" greenhouse gases.By eating balanced foods, you’re making a difference,")
-        print("  albeit small.If you really want to step up your game, studying which")
-        print(" foods have a smallerimpact on the environment and slowly shaping your")
+    }else if (response9 == "c." or response9 == "c"){
+        print("That’s a great choice! Most things you eat will have an affect on the");
+        print("environment, as their production and harvesting will emit many");
+        print(" greenhouse gases.By eating balanced foods, you’re making a difference,");
+        print("  albeit small.If you really want to step up your game, studying which");
+        print(" foods have a smallerimpact on the environment and slowly shaping your");
         print(" diet along thoselines would be a great way to do that! Keep it up!");
+    }
     print();
-    print("Do you want to redo this part?")
-    choiceFour = input("yes or no?")
-    if (choiceFour == "no"):
-        choice4 = False
-print()
+    print("Do you want to redo this part?");
+    var choiceFour = input("yes or no?");
+    if (choiceFour == "no"){
+        choice4 = False;
+    }
+}
+print();
 
-#throw away food
-choice5 = True
-while (choice5 == True):
+//throw away food
+var choice5 = True;
+while (choice5 == True){
     print("After eating ypur meal, you...");
-    print("a. Throw away the rest of your food.")
-    print("b. Make sure you ate every. last. crumb.")
-    print("c. Let the dish washers deal with the leftover food")
-    response8 = input("What is your choice?");
-    if (response8 == "a" or response8 == "a."):
-        print("Yikes. Let’s consider what happens to the rest of that food after")
-        print("it’s tossed. According to the NRDC, 40 percent of food in America")
-        print("isn’t eaten. Also, it’s difficult for 1 of every 8 Americans to put")
-        print("food on the table. When you go to eat, plan ahead; focus on portion")
-        print("control if you always end up with more than you can handle,")
-        print("or work to start a compost system at your college")
-    elif (response8 == "b." or response8 == "b"):
-        print("This isn’t a bad idea, as long as you are paying attention to")
-        print("portions! Food waste is bad, but remember that you and your body")
-        print("are important to. No one else is going to focus on your health,")
-        print("so make sure to make that a priority.")
-    elif (response8 == "c" or response8 == "c."):
-        print("First off, I recommend not giving a full plate to the dishwashers")
-        print("after dinner. Frankly, it’s a bit rude. Also, the food will typically")
-        print("be trashed, leading to more food waste. According to the NRDC,")
-        print("40 percent of the food in America doesn’t get eaten,")
-        print("and it’s difficult for 1 of every 8 Americans to put food on")
-        print("the table. Consider: portion control, and maybe petitioning")
-        print("the start of a compost at your school,")
+    print("a. Throw away the rest of your food.");
+    print("b. Make sure you ate every. last. crumb.");
+    print("c. Let the dish washers deal with the leftover food");
+    var response8 = input("What is your choice?");
+    if (response8 == "a" or response8 == "a."){
+        print("Yikes. Let’s consider what happens to the rest of that food after");
+        print("it’s tossed. According to the NRDC, 40 percent of food in America");
+        print("isn’t eaten. Also, it’s difficult for 1 of every 8 Americans to put");
+        print("food on the table. When you go to eat, plan ahead; focus on portion");
+        print("control if you always end up with more than you can handle,");
+        print("or work to start a compost system at your college");
+    }else if (response8 == "b." or response8 == "b"){
+        print("This isn’t a bad idea, as long as you are paying attention to");
+        print("portions! Food waste is bad, but remember that you and your body");
+        print("are important to. No one else is going to focus on your health,");
+        print("so make sure to make that a priority.");
+    }else if (response8 == "c" or response8 == "c."){
+        print("First off, I recommend not giving a full plate to the dishwashers");
+        print("after dinner. Frankly, it’s a bit rude. Also, the food will typically");
+        print("be trashed, leading to more food waste. According to the NRDC,");
+        print("40 percent of the food in America doesn’t get eaten,");
+        print("and it’s difficult for 1 of every 8 Americans to put food on");
+        print("the table. Consider: portion control, and maybe petitioning");
+        print("the start of a compost at your school,");
         print("which is great for the environment!");
+    }
     print();
-    print("Do you want to redo this part?")
-    choiceFive = input("yes or no?")
-    if (choiceFive == "no"):
-        choice5 = False
-print()
+    print("Do you want to redo this part?");
+    var choiceFive = input("yes or no?");
+    if (choiceFive == "no"){
+        choice5 = False;
+    }
+}
+print();
 
-#sleepy time
-choice6 = True
-while(choice6 == True):
-    print("After a filling dinner with strong portion control,")
-    print("you decide you’ve given up on studying, and it’s time for bed.")
-    print("You’ve changed into your jammies and you’ve considered looking")
-    print("over your notes so as to avoid disappointing yourself too much.")
+//sleepy time
+var choice6 = True;
+while(choice6 == True){
+    print("After a filling dinner with strong portion control,");
+    print("you decide you’ve given up on studying, and it’s time for bed.");
+    print("You’ve changed into your jammies and you’ve considered looking");
+    print("over your notes so as to avoid disappointing yourself too much.");
     print("It’s time to reflect! What have you learned from today?");
-    print("a. It’s possible for me to replace and change parts of my")
-    print("everyday routine in order to help fight against climate change")
+    print("a. It’s possible for me to replace and change parts of my");
+    print("everyday routine in order to help fight against climate change");
     print("and lower my carbon footprint!");
-    print("b. I noticed that even the smallest things can have an impact")
-    print("on my environment, and I’d like to consider how I can")
+    print("b. I noticed that even the smallest things can have an impact");
+    print("on my environment, and I’d like to consider how I can");
     print("change some of my habits.");
     print("c. I learned nothing.");
-    response10 = input("What is your choice?");
-    if (response10 == "a." or response10 == "a"):
-        print("That’s great! Look at everything you do, and maybe make")
-        print("it a habit to think how you can make little things in your")
-        print("life more sustainable! Just remember, you don’t have to make")
-        print("a big change now, like going straight vegan or going waste-free.")
-        print("If you can do that in the future, that’d be awesome.")
+    var response10 = input("What is your choice?");
+    if (response10 == "a." or response10 == "a"){
+        print("That’s great! Look at everything you do, and maybe make");
+        print("it a habit to think how you can make little things in your");
+        print("life more sustainable! Just remember, you don’t have to make");
+        print("a big change now, like going straight vegan or going waste-free.");
+        print("If you can do that in the future, that’d be awesome.");
         print("Just remember to take things slow! Keep up the great work!");
-    elif (response10 == "b." or response10 == "b"):
-        print("That’s great! Yes, even small things, things you may not")
-        print("have considered, can have an impact on the environment.")
-        print("If you’re unsure about what may have an affect on the")
-        print("environment in your life, the internet is a great resource")
-        print("for studying up on sustainability. Just remember,")
-        print("you don’t have to make a big change now,")
-        print("like going straight vegan or going waste-free.")
-        print("If you can do that in the future, that’d be awesome.")
+    }else if (response10 == "b." or response10 == "b"){
+        print("That’s great! Yes, even small things, things you may not");
+        print("have considered, can have an impact on the environment.");
+        print("If you’re unsure about what may have an affect on the");
+        print("environment in your life, the internet is a great resource");
+        print("for studying up on sustainability. Just remember,");
+        print("you don’t have to make a big change now,");
+        print("like going straight vegan or going waste-free.");
+        print("If you can do that in the future, that’d be awesome.");
         print("Just remember to take things slow!");
-    elif (response10 == "c." or response10 == "c"):
-        print("Since you chose this answer, I’m going to just assume")
-        print("you didn’t read the information. If you don’t want to learn,")
-        print("then fine! We can’t make you. Just don’t try to say ")
-        print("“climate change isn’t my problem.” It is,")
-        print("and it’s up to us and the coming generations to fix things.")
-    print()
-    print("Do you want to redo this part?")
-    choiceSix = input("yes or no?")
-    if (choiceSix == "no"):
-        choice6 = False
-print()
-print("Thanks for completing this activity.")
-print("We hope you learned something new!")
+    } else if (response10 == "c." or response10 == "c"){
+        print("Since you chose this answer, I’m going to just assume");
+        print("you didn’t read the information. If you don’t want to learn,");
+        print("then fine! We can’t make you. Just don’t try to say ");
+        print("“climate change isn’t my problem.” It is,");
+        print("and it’s up to us and the coming generations to fix things.");
+    }
+    print();
+    print("Do you want to redo this part?");
+    var choiceSix = input("yes or no?");
+    if (choiceSix == "no"){
+        choice6 = False;
+    }
+}
+print();
+print("Thanks for completing this activity.");
+print("We hope you learned something new!");
 
